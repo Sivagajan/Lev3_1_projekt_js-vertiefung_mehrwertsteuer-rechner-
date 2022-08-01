@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 15px;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 400px;
+    height: 500px;
+}
+
+p{
+    padding: 10px 10px 0 10px ;
+}
+
+.radio{
+    line-height: 30px;
+    padding: 0 0 0 10px;
+}
+.field{
+    border-bottom: 4px solid white;
+    padding-bottom: 10px;
+}
+
+.mwSatz > label{
+    margin: 0 20px 0 10px ;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+.input > input{
+    border-color: rgb(180, 178, 178);
+}
+
+#betrag{
+    width: 90px;
+}
+
+#btn{
+    margin: 20px;
+    padding: 2px;
+    color: white;
+    background-color: rgb(0, 62, 177);
+    border-radius: 5px
+}
+
+.ergebnis > p{
+    color: rgb(0, 62, 177);
+    font-size: 12px;
+}
+
+#mwsteuerbetrag{
+    padding-left: 10px;
+}
+
+#endbetrag > p {
+    
+    padding-left: 10px;
+}

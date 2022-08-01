@@ -63,7 +63,7 @@ let calculate = () => {
 
         document.getElementById('mwsteuerbetrag').innerHTML = ` <p>Mehrwertsteuerbetrag</p> <h4>${amountB}</h4>`
 
-        document.getElementById('endbetrag').innerHTML = ` <p>Nettopreis</p> <h4>${amount}</h4>`
+        document.getElementById('endbetrag').innerHTML = ` <p>Nettopreis</p> <h4>${Number (amount)}</h4>`
     }
 
     if(dir === 'ab' && tax === '7'){
@@ -72,7 +72,7 @@ let calculate = () => {
 
         document.getElementById('mwsteuerbetrag').innerHTML = ` <p>Mehrwertsteuerbetrag</p> <h4>${amountB}</h4>`
 
-        document.getElementById('endbetrag').innerHTML = ` <p>Nettopreis</p> <h4>${amount}</h4>`
+        document.getElementById('endbetrag').innerHTML = ` <p>Nettopreis</p> <h4>${Number (amount)}</h4>`
     }
     
 }
